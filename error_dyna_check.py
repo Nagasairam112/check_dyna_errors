@@ -83,7 +83,7 @@ with open("error.txt", "w") as errorFile:
                         if "*** Error" not in errorText:
                             break
                     else:
-                        st.write(f'<span style="color:yellow">{string}</span>',unsafe_allow_html=True)
+                        st.write(f'<span style="color:red">{string}</span>',unsafe_allow_html=True)
                         errorFile.write(string)
                         errorFile.write("\n")
                         startPos = endPos + 1
