@@ -4,6 +4,7 @@ import tempfile
 st.set_page_config(layout="wide")
 st.title("Find the errors from mes files")
 st.caption("Adapted from Reno Genest script, Modified by Ram ACE for Public Distribution ")
+st.caption("ANSYS LSTC")
 # Get file list from user
 up_files = st.file_uploader("Select multiple mes files to check:", accept_multiple_files=True)
 # Create a temporary directory to store uploaded files
